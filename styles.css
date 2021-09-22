@@ -1,0 +1,15 @@
+* {
+    border: 2px solid red
+}
+
+.menu-bar {
+    display: flex;
+}
+
+.menu-button {
+    border: 2px solid darkgreen;
+    padding: 5px;
+    margin: 5px;
+    background-color: green;
+    color: white;
+}

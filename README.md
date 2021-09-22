@@ -1,2 +1,3 @@
-# tee-time-booker
-script that enables auto booking of tee time slots for clubs using e-golf4u API
+This webapp helps members of golfclubs that use the egolf4u booking tool to book teetimes before the slots open.
+
+You can login with your credential that you would normally use to login to your golfclub.
