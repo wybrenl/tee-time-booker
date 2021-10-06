@@ -6,14 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>e-golf 4u teetime booker</title>
+    <title>e-golf4u teetime booker</title>
 </head>
 
 <body>
-    <h1>Book your teetime at any time you want</h1>
+    <div class="header">
+        <img src="images/NicePng_golf-ball-vector-png_1151385.png" alt="logo"> 
+    </div>
+
     <div class="menu-bar">
-        <a class="menu-button" href="how-to-use.html">How to use</a>
-        <a class="menu-button" href="faq.html">FAQ</a>
+        <ul>
+           <li><a class="menu-button" href="how-to-use.html">How to use</a></li>
+           <li><a class="menu-button" href="faq.html">FAQ</a></li>
+        </ul>
+    </div>
+
+    <div class="login-form">
+        <div class="box select-club">Selecteer een club</div>
+        <form class="box calendar" action="/action_page.php">
+            <label for="teetime">Tee time:</label>
+            <input type="datetime-local" id="teetime" name="teetime">
+        </form>
+        <div class="box credentials">Gebruikersnaam</div>
+        <div class="box credentials">Wachtwoord</div>
+        <div class="box login-button">Boek tee time</div>
+    </div>
+    
+    <div class="footer">
+        © Henkie B productions
     </div>
 </body>
 </html>
